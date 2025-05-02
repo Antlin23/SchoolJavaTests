@@ -1,3 +1,5 @@
+Aktuell branch för inlämning: rollingback
+
 Inlämningsupgift enhet, komponent och integrationstest. 
 
 Enhetstesterna finns i filen UserServiceUnitTest
