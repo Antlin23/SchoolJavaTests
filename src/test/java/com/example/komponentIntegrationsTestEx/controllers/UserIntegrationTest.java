@@ -24,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @Rollback(value = true)
 class UserIntegrationTest {
 
-    
+
     @LocalServerPort
     private int port;
 
