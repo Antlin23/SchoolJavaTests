@@ -19,6 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 //Changes to app-test.properties file, so it uses the test database.
 @ActiveProfiles("test")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@Transactional
 class UserIntegrationTest {
 
     @LocalServerPort
